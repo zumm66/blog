@@ -29,5 +29,5 @@ route(app);
 
 
 app.listen(port, () => {
-    console.log(`App is running at http://localhost:${port}`)
+    console.log(`App is running at http://https://football-blog-z66.herokuapp.com/:${port}`)
 });
