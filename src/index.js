@@ -4,7 +4,8 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const multer = require('multer');
 const path = require('path');
-const port = process.env.PORT || 9899;
+const port = process.env.MONGODB_URI;
+// const port = process.env.PORT || 9899;
 const route = require('./routes');
 const db = require('./config/db/db.config');
 
