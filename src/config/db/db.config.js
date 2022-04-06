@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoAtlasUri = "mongodb+srv://zumm66:admin660@cluster0.uakvi.mongodb.net/blog?retryWrites=true&w=majority";
+const mongoAtlasUri = "mongodb+srv://zumm66:admin66@cluster0.uakvi.mongodb.net/blog?retryWrites=true&w=majority";
 
 async function connect() {
 
